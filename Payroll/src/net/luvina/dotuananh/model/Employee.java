@@ -62,12 +62,9 @@ public class Employee {
     }
 
     public float getCurrentSalary(){
-        float currentSalary = startSalary;
         Period periodDate = getPeriodFromStartWorkDay();
         int numberOfTimesIncrease = periodDate.getYears()*12/Constant.SALARY_INCREASE_PERIOD;
-        for (int i = 1; i <= numberOfTimesIncrease ; i++) {
-            currentSalary += Constant.INCREASE_PERCENT*currentSalary;
-        }
+        float currentSalary = (float) (startSalary*Math.pow((1 + Constant.INCREASE_PERCENT), numberOfTimesIncrease));
         return currentSalary;
     }
 

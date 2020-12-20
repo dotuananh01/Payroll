@@ -4,7 +4,7 @@ import net.luvina.dotuananh.controller.EmployeeController;
 import net.luvina.dotuananh.model.Employee;
 import java.util.List;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         String csvFile = Constant.CSV_FILE_PATH;
