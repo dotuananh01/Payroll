@@ -18,7 +18,7 @@ Phần mềm tính lương phiên bản 1.0
     Cách tính này không cần đến đầu năm mới điều chỉnh.
     Hãy tính lương tại thời điểm hiện tại của nhân viên
 
-=======================================================================================================================
+=====================================================================================
 1. File CSV:(https://github.com/dotuananh01/Payroll/blob/master/employee.csv) Lưu thông tin nhân viên
   Gồm 5 cột: name, dob, role, startdate, startsal
 
